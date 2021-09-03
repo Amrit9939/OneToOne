@@ -8,7 +8,7 @@
 // Reformat, Indentition, Inline Comments
 //
 /////////////////////////////////////////////////////
-
+var path = require('path')
 var express = require('express')
 var https = require('https')
 var http = require('http')
@@ -170,5 +170,8 @@ app.post('/api/create-room/', function (req, res) {
     }
 });
 
-
-
+// home
+// app.get('/',(req,res)=>{
+//   console.log("in home");
+//   return res.send('Hello');
+// })
